@@ -209,7 +209,7 @@ docker-compose up -d
    }
 
    ```
-You have to set your credentials if you need any access to an external accounts. In this case we need to set credentials for github (in case your repository is private) and dockerHub to push docker images.
+- You have to set your credentials if you need any access to an external accounts. In this case we need to set credentials for github (in case your repository is private) and dockerHub to push docker images.
 ---
 
 ## Usage Instructions
