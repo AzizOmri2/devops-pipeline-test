@@ -1,4 +1,4 @@
-# Deployment Instructions for [Project Name]
+# Deployment Instructions
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
@@ -30,18 +30,16 @@ Ensure you have the following installed:
 - **Git**: Version control system.
 - **Docker**: For containerization.
 - **Docker Compose**: For orchestrating containers.
-- **Jenkins/GitHub Actions**: For setting up the CI/CD pipeline.
-- **Sonarqube**: For testing the code's quality.Specify any additional tools like Node.js, Maven, or npm if required.
-- **Maven**: 
-- **Npm**:
+- **Jenkins**: For setting up the CI/CD pipeline.
+- **Maven**: For managing project dependencies and building Java applications.
 
 ---
 
 ## Application Architecture
 ```plaintext
-|-- Frontend: [Port 4200]
-|-- Backend: [Port 8089]
-|-- Database: [Port 3306]
+Frontend: [Port 4200]
+Backend: [Port 8089]
+Database: [Port 3306]
 ```
 The architecture ensures scalability and fault tolerance with containerized services and automated pipelines.
 
@@ -211,7 +209,7 @@ docker-compose up -d
    }
 
    ```
-
+You have to set your credentials if you need any access to an external accounts. In this case we need to set credentials for github (in case your repository is private) and dockerHub to push docker images.
 ---
 
 ## Usage Instructions
