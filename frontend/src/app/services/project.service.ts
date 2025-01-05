@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 
-const BASIC_URL =['http://203.0.113.32:8089/testdevops/'];
+const BASIC_URL ='http://203.0.113.32:8089/testdevops/';
 
 
 @Injectable({
